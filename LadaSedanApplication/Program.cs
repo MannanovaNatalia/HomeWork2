@@ -29,6 +29,7 @@ namespace LadaSedanApplication
             
 
             var driver = new DriverModel(new DateTime(2011,11,11), "Вольдемар" );
+
             Console.WriteLine("Нанят новый инструктор: {0} \n", driver.Name ); 
             driver.Category.Add('B');
             driver.Category.Add('C');
@@ -42,6 +43,7 @@ namespace LadaSedanApplication
             catch (NullReferenceException ex)
             {
                 Console.WriteLine("Невозможно изменить водителя: {0};\n",ex.Message);
+
             }
            
 

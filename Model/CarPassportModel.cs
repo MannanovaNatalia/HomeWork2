@@ -14,6 +14,7 @@ namespace Model
         public CarPassportModel(CarModel car)
         {
             Car = car;
+
         }
 
     }

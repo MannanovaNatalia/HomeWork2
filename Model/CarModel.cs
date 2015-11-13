@@ -17,6 +17,7 @@ namespace Model
        public readonly CarPassportModel CarPassport;
        public CarModel(string model,char category)
        {
+
            this.Model = model;
            this.color = Color.Blue;
            this.Category = category;

@@ -24,6 +24,7 @@ namespace Model
             {
                 return (DateTime.Now - LicenceDay).Days / 365;
             }
+
         }
 
         public List<char> Category { get; set; }
